@@ -169,3 +169,6 @@ cython_debug/
 *.npy
 *.DS_Store
 *.zip
+Analysis/Fig1.ipynb
+*.pdf
+Analysis/Fig1.ipynb
