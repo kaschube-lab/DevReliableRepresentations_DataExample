@@ -3,9 +3,7 @@
 from __future__ import division, print_function
 import numpy as np
 
-__author__ = "Marcos Duarte, https://github.com/demotu/BMC"
-__version__ = "1.0.4"
-__license__ = "MIT"
+
 
 
 def detect_peaks(x, mph=None, mpd=1, threshold=0, edge='rising',
@@ -417,3 +415,5 @@ def radial_profile(data, center):
 def pix_to_mm(pix):
     diam_in_px = pix*1e-3*26.144
     return diam_in_px
+
+
